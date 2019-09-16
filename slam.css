@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    background-color: #B32F3D;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    width: 90%;
+    margin: auto;
+}
+
+.left{
+    background-color: white;
+    height: 20px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.right{
+    background-color: white;
+    height: 20px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+.logo{
+    height: 250px;
+    width: 300px;
+    background-color: white;
+    margin-top: 170px;
+    margin-left: 40%;
+}
+
+.info{
+    background-color: white;
+    margin-top: 200px;
+    margin-left: 72px;
+    height: 20px;
+    width: 200px;
+}
