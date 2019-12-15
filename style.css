@@ -1,3 +1,178 @@
-body{
-    background-color: red;
+.index{
+    background-color: #0058FF;
+}
+
+.landing{
+    background-color: #0058FF;
+}
+
+.about{
+    background-color: white;
+}
+
+.notyourchoice{
+    background-color: white;
+}
+
+img{
+    max-width: 100%;
+}
+
+.headerindex{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 7vw 74vw 6vw 6vw 6vw;
+    margin: auto;
+}
+
+.headerlanding{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 7vw 74vw 6vw 6vw 6vw;
+    margin: auto;
+}
+
+.headerabout{
+    background-color:#0058FF;
+    display: grid;
+    grid-template-columns: 7vw 74vw 6vw 6vw 6vw;
+    margin: auto;
+}
+
+.namepage{
+    background-color: #FFEB00;
+    color: #707070;
+    font-family: helvetica neue;
+    font-size: .8em;
+    padding: 5px;
+    margin: 10px 0px 10px 10px;
+}
+
+.workpage{
+    background-color: #FFEB00;
+    color: #707070;
+    font-family: Helvetica neue;
+    font-size: .8em;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+}
+
+.aboutpage{
+    background-color: #FFEB00;
+    color: #707070;
+    font-family: Helvetica neue;
+    font-size: .8em;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+}
+
+.contactpage{
+    background-color: #FFEB00;
+    color: #707070;
+    font-family: Helvetica neue;
+    font-size: .8em;
+    margin: auto;
+    padding: 5px 5px 5px 5px;
+    margin-right: 10px;
+}
+
+.work{
+    background-color: #0058FF;
+    color: white;
+    font-family: helvetica neue;
+    font-style: italic;
+    font-size: 4em;
+    padding-top: 50px;
+    padding-left:7.5%;
+}
+
+.projects{
+    background-color: #0058FF;
+    display: grid;
+    grid-column-gap: 4em;
+    grid-template-columns: 25vw 25vw 25vw;
+    margin-left: 7.5%;
+ 
+    grid-row-gap: 2em;
+    padding-bottom: 4em;
+}
+
+.project{
+    border: 5px solid #FFEB00;
+}
+
+h1{
+    font-family: helvetica neue;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.welcome{
+    color: white;
+    width: 40%;
+    margin: auto;
+    margin-top: 12vw;
+    text-align: center;
+    font-size: 4.5em;
+}
+
+.seework{
+    color: #FFEB00;
+    font-family: helvetica neue;
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 2vw;
+}
+
+.arrow{
+    height: 3%;
+    width: 3%;
+    margin: auto;
+    margin-top: 1vw;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 19vw 19vw 19vw 24vw;
+    grid-column-gap: 1em;
+    margin-left: 7.7vw;
+    margin-top: 10vw;
+}
+
+.whoami{
+    color: #0058FF;
+    font-size: 2em;
+}
+
+.selftext{
+    font-family: helvetica neue;
+    font-size: .8em;
+}
+
+.projecttitle{
+    color: black;
+    font-size: 3em;
+    padding-top: 5%;
+    margin-left: 5%;
+}
+
+.deliverables{
+    font-family: helvetica neue;
+    font-size: .9em;
+    margin-left: 5%;
+}
+
+
+.individualimage{
+    width: 89vw;
+    border: 5px solid #FFEB00;
+    margin: auto;
+}
+
+
+
+.test_p{
+    border: 5px solid #FFEB00;
+    width:300px;
+    margin: 0;
 }
