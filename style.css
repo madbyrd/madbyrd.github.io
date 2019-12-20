@@ -39,6 +39,13 @@ img{
     margin: auto;
 }
 
+.headercontact{
+    background-color:#0058FF;
+    display: grid;
+    grid-template-columns: 7vw 74vw 6vw 6vw 6vw;
+    margin: auto;
+}
+
 .namepage{
     background-color: #FFEB00;
     color: #707070;
@@ -92,13 +99,13 @@ img{
     grid-column-gap: 4em;
     grid-template-columns: 25vw 25vw 25vw;
     margin-left: 7.5%;
- 
     grid-row-gap: 2em;
     padding-bottom: 4em;
 }
 
 .project{
     border: 5px solid #FFEB00;
+    height: calc(25vw - 10px);
 }
 
 h1{
@@ -162,17 +169,295 @@ h1{
     margin-left: 5%;
 }
 
-
 .individualimage{
     width: 89vw;
     border: 5px solid #FFEB00;
     margin: auto;
 }
 
-
-
-.test_p{
-    border: 5px solid #FFEB00;
-    width:300px;
-    margin: 0;
+.objective{
+    font-family: helvetica neue;
+    font-size: .9em;
+    margin-left: 5%;
 }
+
+h2{
+    color: #626262;
+    font-family: helvetica neue;
+}
+
+.projectimages{
+    display: grid;
+    grid-template-columns: 28vw 28vw 28vw;
+    margin-left: 5%;
+    grid-column-gap: 2em;
+    margin-top: 2%;
+}
+
+.image1{
+    border: 5px solid #0058FF;
+}
+
+.image2{
+    border: 5px solid #0058FF;
+}
+
+.image3{
+    border: 5px solid #0058FF;
+}
+
+h3{
+    color: #626262;
+    font-family: helvetica neue;
+    margin-left: 4.9%;
+    font-size: 1.7em;
+}
+
+.container {
+    font-family: helvetica neue;
+    font-weight: bold; 
+    font-size: 1.4em;
+    border-radius: 5px;
+    padding-left: 15%;
+    padding-top: 105px;
+    color: #0058FF;
+        
+}
+    
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+    
+    
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+    
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+@media only screen and (min-width: 800px) and (max-width: 1280px) {
+    body{
+        
+    }
+
+    .headerindex{
+        background-color: white;
+        display: grid;
+        grid-template-columns: 7vw 72vw 6vw 6vw 6vw;
+        margin: auto;
+    }
+
+    .headerlanding{
+        background-color: white;
+        display: grid;
+        grid-template-columns: 7vw 72vw 6vw 6vw 6vw;
+        margin: auto;
+    }
+
+    .headerabout{
+        background-color:#0058FF;
+        display: grid;
+        grid-template-columns: 7vw 72vw 6vw 6vw 6vw;
+        margin: auto;
+    }
+
+    .headercontact{
+        background-color:#0058FF;
+        display: grid;
+        grid-template-columns: 7vw 72vw 6vw 6vw 6vw;
+        margin: auto;
+    }
+
+    .namepage{
+        background-color: #FFEB00;
+        color: #707070;
+        font-family: helvetica neue;
+        font-size: .6em;
+        margin: 5px 5px 5px 5px;
+    }
+    
+    .workpage{
+        background-color: #FFEB00;
+        color: #707070;
+        font-family: Helvetica neue;
+        font-size: .6em;
+        margin: auto;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    .aboutpage{
+        background-color: #FFEB00;
+        color: #707070;
+        font-family: Helvetica neue;
+        font-size: .6em;
+        margin: auto;
+        padding: 5px 5px 5px 5px;
+    }
+    
+    .contactpage{
+        background-color: #FFEB00;
+        color: #707070;
+        font-family: Helvetica neue;
+        font-size: .6em;
+        margin: auto;
+        padding: 5px 5px 5px 5px;
+        margin-right: 10px;
+    }
+
+    .content{
+        display: grid;
+        grid-template-columns: 26.6vw 26.6vw 26.6vw;
+        grid-column-gap: 1em;
+        margin-left: 7.7vw;
+        margin-top: 10vw;
+    }
+
+    .projects{
+        background-color: #0058FF;
+        display: grid;
+        grid-column-gap: 2em;
+        grid-template-columns: 25vw 25vw 25vw;
+        margin-left: 7.5%;
+        grid-row-gap: 2em;
+        padding-bottom: 4em;
+    }
+
+    .welcome{
+        color: white;
+        width: 40%;
+        margin: auto;
+        margin-top: 12vw;
+        text-align: center;
+        font-size: 3em;
+    }
+    
+    .seework{
+        color: #FFEB00;
+        font-family: helvetica neue;
+        font-size: 1em;
+        text-align: center;
+        margin-top: 2vw;
+    }
+
+}
+
+    @media only screen and (max-width: 800px) {
+
+        body{
+        
+        }
+
+        .headerindex{
+            background-color: white;
+            display: grid;
+            grid-template-columns: 11vw 65vw 6vw 6vw 6vw;
+            margin: auto;
+        }
+
+        .headerlanding{
+            background-color: white;
+            display: grid;
+            grid-template-columns: 11vw 65vw 6vw 6vw 6vw;
+            margin: auto;
+        }
+    
+        .headerabout{
+            background-color:#0058FF;
+            display: grid;
+            grid-template-columns: 11vw 65vw 6vw 6vw 6vw;
+            margin: auto;
+        }
+
+        .headercontact{
+            background-color:#0058FF;
+            display: grid;
+            grid-template-columns: 11vw 65vw 6vw 6vw 6vw;
+            margin: auto;
+        }
+
+        .namepage{
+            background-color: #FFEB00;
+            color: #707070;
+            font-family: helvetica neue;
+            font-size: .3em;
+            margin: 5px 5px 5px 5px;
+        }
+        
+        .workpage{
+            background-color: #FFEB00;
+            color: #707070;
+            font-family: Helvetica neue;
+            font-size: .3em;
+            margin: auto;
+            padding: 5px 5px 5px 5px;
+        }
+        
+        .aboutpage{
+            background-color: #FFEB00;
+            color: #707070;
+            font-family: Helvetica neue;
+            font-size: .3em;
+            margin: auto;
+            padding: 5px 5px 5px 5px;
+        }
+        
+        .contactpage{
+            background-color: #FFEB00;
+            color: #707070;
+            font-family: Helvetica neue;
+            font-size: .3em;
+            margin: auto;
+            padding: 5px 5px 5px 5px;
+            margin-right: 10px;
+        }
+
+        .content{
+            display: grid;
+            grid-template-columns: 26.6vw 26.6vw 26.6vw;
+            grid-column-gap: 1em;
+            margin-left: 7.7vw;
+            margin-top: 10vw;
+        }
+
+        .projects{
+            background-color: #0058FF;
+            display: grid;
+            grid-column-gap: 1em;
+            grid-template-columns: 25vw 25vw 25vw;
+            margin-left: 7.5%;
+            grid-row-gap: 2em;
+            padding-bottom: 4em;
+        }
+
+        .welcome{
+            color: white;
+            width: 40%;
+            margin: auto;
+            margin-top: 12vw;
+            text-align: center;
+            font-size: 2em;
+        }
+
+        .seework{
+            color: #FFEB00;
+            font-family: helvetica neue;
+            font-size: .8em;
+            text-align: center;
+            margin-top: 2vw;
+        }
+
+    }
